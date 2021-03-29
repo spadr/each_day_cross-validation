@@ -1,7 +1,6 @@
 import random
 import numpy as np
 
-
 def ed_cross_validation(X,Y,day_sample,n_splits=5):
     day = len(Y)//day_sample
     x_train = []

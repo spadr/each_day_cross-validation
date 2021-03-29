@@ -10,6 +10,7 @@ testとtrainデータ目的変数の分布が偏ることがあります。
 import ed_cross-validation
 
 X_train, X_test, y_train, y_test = ed_cross_validation(X,Y,day_sample,n_splits=5)
+
 #day_sampleは一日あたりのサンプル数
 #n_splitsはサンプル数を何分割するか
 #X,Yはnp.arrayで入力する(scikit-learnと同じ)

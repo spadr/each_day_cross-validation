@@ -1,4 +1,4 @@
-# each_day_cross-validation
+# each_day_cross_validation
 A method of cross-validation to modelling object what change condition each day.
 
 実験日ごとに目的変数が増減し、サンプリング数が少ないデータをクロスバリデーションすると、
